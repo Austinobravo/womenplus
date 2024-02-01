@@ -44,7 +44,7 @@ const Navbar = () => {
             <div className="flex space-x-2">
                 <div >
                     <Link href="/" >
-                        <Image src="/logo-color.svg" width={100} height={1} alt="Logo" priority/>
+                        <Image src="/logo.png" width={100} height={1} alt="Logo" priority/>
                     </Link>
 
                 </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
             <div >
                 {!toggle ? 
                     <Link href="/" >
-                        <Image src="/logo-color.svg" width={100} height={1} alt="Logo"/>
+                        <Image src="/logo.png" width={100} height={1} alt="Logo"/>
                     </Link> 
                 :
                 <div className="border  rounded-full py-1 pr-6 pl-1 cursor-pointer" >

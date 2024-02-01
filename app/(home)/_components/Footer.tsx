@@ -54,7 +54,7 @@ const Footer = () => {
         <div className='flex flex-wrap md:flex-nowrap px-10'>
             <div className='flex flex-col basis-2/3'>
                 <div className='py-5 w-fit'>
-                    <Image src={`/logo-black.svg`} width={100} height={20} alt='logo'/>
+                    <Image src={`/logo.png`} width={100} height={20} alt='logo'/>
                 </div>
                 <div>
                     <ul className='flex flex-wrap flex-col md:flex-row md:flex-nowrap gap-2  font-bold text-xs'>
